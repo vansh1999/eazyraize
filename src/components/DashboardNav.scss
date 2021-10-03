@@ -1,0 +1,31 @@
+.dashbard-nav {
+  position: fixed;
+  z-index: 1;
+  background: #471597;
+  left: 0;
+  top: 0;
+  height: 90vh;
+  max-width: 300px;
+  /* responsive nav menu */
+  transition: transform 0.3s;
+  transform: translateX(-100%);
+  width: 30vw;
+  padding: 5rem;
+}
+
+ul {
+  background: #191a19;
+  color: #fff;
+  height: 90vh;
+  width: 20vw;
+}
+
+ul li {
+  text-align: center;
+  padding: 3rem;
+}
+
+ul li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

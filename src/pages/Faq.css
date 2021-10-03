@@ -1,0 +1,25 @@
+body {
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #040505 94%);
+  color: #e5e7eb;
+}
+
+.faq-container {
+  height: 90vh;
+  width: 90%;
+  margin: 5rem auto;
+}
+
+.faq-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem;
+}
+
+.question {
+  padding: 2rem;
+}
+
+.que {
+  font-weight: bold;
+}

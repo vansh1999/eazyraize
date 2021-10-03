@@ -1,0 +1,39 @@
+.kyc-container {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+}
+
+.left-side {
+  width: 20vh;
+  z-index: 1;
+}
+
+.right-side {
+  /* background: red; */
+  /* width: 80vh; */
+  display: flex;
+  justify-content: space-evenly;
+  width: 90vw;
+  margin: 5rem auto;
+}
+
+.walletconnect {
+  text-align: right;
+}
+
+.register h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+.register p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.ido-launch {
+  text-align: center;
+}
